@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search by book title"
+        android:inputType="text"
+        android:imeOptions="actionSearch"/>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"/>
+
+    <TextView
+        android:id="@+id/textViewSearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginTop="16dp"
+        android:text="Search results will appear here"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

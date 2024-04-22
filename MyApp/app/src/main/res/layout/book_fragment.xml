@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BookFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Naslov knjige -->
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naslov knjige"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Broj stranica -->
+        <TextView
+            android:id="@+id/text_pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broj stranica: 0"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Povez (tvrd, mekan) -->
+        <TextView
+            android:id="@+id/text_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Povez: Tvrd"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Žanr -->
+        <TextView
+            android:id="@+id/text_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Žanr: Roman"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Autor -->
+        <TextView
+            android:id="@+id/text_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: John Doe"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Dugme za brisanje knjige -->
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obriši knjigu"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

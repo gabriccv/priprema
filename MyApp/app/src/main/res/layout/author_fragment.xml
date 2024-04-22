@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/cont"
+        android:layout_width="266dp"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:text="Cont"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/text_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/text_author_birthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthdate"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/text_author_birthplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthplace"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="4dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamera"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promeni boju"
+        android:layout_below="@id/buttonCamera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="218dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/buttonChangeColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/conta"
+        android:layout_width="224dp"
+        android:layout_height="241dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Conta" />
+
+
+</RelativeLayout>

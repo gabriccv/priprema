@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAuthorActivity">
+    <!-- book_form.xml -->
+    <!-- book_form.xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/edit_text_author_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ime autora"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edit_text_author_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Datum rođenja autora"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/edit_text_author_birthplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mesto rođenja autora"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/button_add_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodaj autora"/>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
